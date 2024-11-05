@@ -2,7 +2,7 @@ import {Telegram, WhatsUp} from "./Icons";
 
 function Footer(){
     return (
-        <div className="flex flex-row justify-between pl-[77px] mt-[23px] pr-[120px] bg-[#05A5C8] text-white pt-[60px] pb-[64px]">
+        <div className="flex flex-row justify-between pl-[77px] pr-[120px] bg-[#05A5C8] text-white pt-[60px] pb-[64px]">
             <div className="flex justify-start gap-[130px]">
                 <div className="flex flex-col font-medium text-[20px] leading-[30px] gap-[7px] ">
                     <h2 className="text-[20px] font-black leading-[30px] mb-[5px]">О нас</h2>

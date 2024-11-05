@@ -1,18 +1,18 @@
 function Info() {
     return (
-        <div className="flex flex-col w-[55%] gap-[30px] px-[71px] mt-[50px]">
-            <div className="flex flex-col gap-[6px] font-normal text-[16px] leading-[24px]">
-                <h1 className="text-[24px] leading-[36px] font-bold">Быстрые выплаты на карту</h1>
+        <div className="flex flex-col lgbvp:w-[55%] lg:w-[70%] w-[90%] gap-[30px] lg:px-[71px] md:px-[40px] px-[19px] md:mt-[50px] mt-[26px]">
+            <div className="flex flex-col gap-[6px] font-normal md:text-[16px] text-[14px] leading-[24px]">
+                <h1 className="md:text-[24px] text-[20px] leading-[36px] font-bold">Быстрые выплаты на карту</h1>
                 <p>KZTurbo специализируется на предоставлении быстрых денежных займов на карту. Забудьте о долгих
                     ожиданиях и сложных процедурах – с нами деньги будут у вас на счету уже через несколько минут после
                     одобрения заявки. Наша цель – обеспечить вам финансовую поддержку тогда, когда это действительно
                     нужно, с минимальными усилиями с вашей стороны.</p>
             </div>
-            <div className="flex flex-col gap-[6px] font-normal text-[16px] leading-[24px]">
-                <h1 className="text-[24px] leading-[36px] font-bold">Простое оформление заявки</h1>
+            <div className="flex flex-col gap-[6px] font-normal md:text-[16px] text-[14px] leading-[24px]">
+                <h1 className="md:text-[24px] text-[20px] leading-[36px] font-bold">Простое оформление заявки</h1>
                 <p>Оформление займа в KZTurbo – это просто и удобно. Вам нужно всего лишь оставить заявку на нашем сайте, указав необходимые данные. Мы не требуем большого количества документов или поручителей. Всё, что вам нужно – это доступ в интернет и несколько минут вашего времени. Заполните форму, и наши специалисты оперативно свяжутся с вами для дальнейшего оформления.</p>
             </div>
-            <h1 className="text-[24px] leading-[36px] font-bold w-[70%]">С KZTurbo вы всегда можете быть уверены в быстром и надежном финансовом решении!</h1>
+            <h1 className="mdbvp:flex hidden text-[24px] leading-[36px] font-bold w-[70%]">С KZTurbo вы всегда можете быть уверены в быстром и надежном финансовом решении!</h1>
         </div>
     )
 }
