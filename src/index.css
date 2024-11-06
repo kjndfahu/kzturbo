@@ -19,3 +19,7 @@ input[type="number"] {
 .range::-moz-range-track {
     background-color: #f3f3f3; /* серый цвет для Firefox */
 }
+
+.custom-hover-shadow:hover {
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.4); /* Пример кастомной тени */
+}

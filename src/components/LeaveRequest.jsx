@@ -70,7 +70,7 @@ function LeaveRequest() {
                     </div>
                     <button
                         type="submit"
-                        className="my-[30px] flex items-center rounded-[5px] py-[10px] w-[150px] justify-center bg-[#FFF800] text-[#05A5C8] font-black"
+                        className="my-[30px] custom-hover-shadow flex items-center rounded-[5px] py-[10px] w-[150px] justify-center bg-[#FFF800] text-[#05A5C8] font-black"
                     >
                         Отправить
                     </button>
