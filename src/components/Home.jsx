@@ -14,7 +14,7 @@ function Home() {
 
             <div style={{
                 backgroundImage: `url(${bg})`,
-            }} className="absolute z-[1] xl:h-[1200px] lgbvp:h-[860px] lg:h-[690px] mdbvp:h-[550px] md:h-[400px] h-[320px] bg-cover w-full top-[-10px] bg-[#05A5C8]"></div>
+            }} className="absolute z-[1] xl:h-[1200px] lgbvp:h-[860px] lg:h-[690px] mdbvp:h-[550px] sm:left-0 xs:left-[-50px] left-[-100px] md:h-[400px] h-[320px] bg-cover sm:w-full xs:w-[109vw] w-[135%] top-[-10px] bg-[#05A5C8]"></div>
             {/*<Girl className="absolute z-[10] bg-cover w-full top-[150px] "/>*/}
             <TwoBlocks/>
             <ThreeSteps/>

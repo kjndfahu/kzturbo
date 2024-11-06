@@ -11,7 +11,7 @@ function LeaveRequest() {
                 </div>
                 <div className="my-[30px] flex items-center rounded-[5px] py-[10px] w-[150px] justify-center bg-[#FFF800] text-[#05A5C8] font-black">Отправить</div>
             </div>
-            <img className="lgbvp:flex hidden absolute ftr:w-[688px] w-[500px] ftr:h-[526px] h-[380px] xlbvp:left-[1100px] wmn:left-[650px] ftr:left-[500px] left-[580px] xlbvp:top-[2840px] wmn:top-[2950px] ftr:top-[2980px] lgbvp:top-[3200px] top-[3350px]" src={woman} alt=""/>
+            <img className="lgbvp:flex hidden absolute ftr:w-[688px] w-[500px] ftr:h-[526px] h-[380px] xlbvp:left-[800px] wmn:left-[650px] ftr:left-[600px] left-[580px] xlbvp:top-[2900px] wmn:top-[2650px] ftr:top-[2600px] lgbvp:top-[3200px] top-[3350px]" src={woman} alt=""/>
         </div>
     )
 }

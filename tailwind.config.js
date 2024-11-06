@@ -18,7 +18,8 @@ module.exports = {
         mdbvp: "700px",
         md: "500px",
         smbvp: "450px",
-        sm: "380px"
+        sm: "380px",
+        xs:"320px"
       }
     },
   },

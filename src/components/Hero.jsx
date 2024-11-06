@@ -55,11 +55,11 @@ function Hero() {
                         <div
                             className="flex items-center justify-center bg-[#F3F3F3] smbvp:w-32 w-[100px] smbvp:h-12 h-[28px] [box-shadow:-19px_18px_6px_-17px_rgba(34,_60,_80,_0.28)_inset] rounded-lg shadow-sm text-black font-medium">
                             <input
-                                className="font-medium bg-transparent w-[25px] placeholder-black smbvp:text-xl text-[12px] focus:outline-none"
+                                className="font-medium bg-transparent smbvp:w-[25px] w-[15px] placeholder-black smbvp:text-xl text-[12px] focus:outline-none"
                                 onChange={handleInputChangeTerm} value={term.toLocaleString()}
                                 placeholder={term.toLocaleString()}
                                 type="number"/>
-                            <span className="ml-1 text-xl">недель</span>
+                            <span className="ml-1 smbvp:text-xl text-[12px]">недель</span>
                         </div>
                     </div>
 
