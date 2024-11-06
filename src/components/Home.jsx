@@ -6,9 +6,12 @@ import Prosses from "./Prosses";
 import Info from "./Info";
 import LeaveRequest from "./LeaveRequest";
 import TwoBlocks from "./TwoBlocks";
+import {useState} from "react";
 
 
 function Home() {
+    const [modal, setModal] = useState(false);
+    console.log(modal)
     return (
         <div className="w-full">
 
@@ -16,9 +19,9 @@ function Home() {
                 backgroundImage: `url(${bg})`,
             }} className="absolute z-[1] xl:h-[1200px] lgbvp:h-[860px] lg:h-[690px] mdbvp:h-[550px] sm:left-0 xs:left-[-50px] left-[-100px] md:h-[400px] h-[320px] bg-cover sm:w-full xs:w-[109vw] w-[135%] top-[-10px] bg-[#05A5C8]"></div>
             {/*<Girl className="absolute z-[10] bg-cover w-full top-[150px] "/>*/}
-            <TwoBlocks/>
+            <TwoBlocks modal={modal} setModal={setModal} />
             <ThreeSteps/>
-            <Prosses/>
+            <Prosses setModal={setModal}/>
             <Info/>
             <LeaveRequest/>
         </div>

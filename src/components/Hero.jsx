@@ -1,10 +1,10 @@
 import {useState} from "react";
 import Modal from "./Modal";
 
-function Hero() {
+function Hero({modal, setModal}) {
     const [amount, setAmount] = useState(200000);
     const [term, setTerm] = useState(8);
-    const [modal, setModal] = useState(false);
+
 
     const minAmount = 15000;
     const maxAmount = 200000;
