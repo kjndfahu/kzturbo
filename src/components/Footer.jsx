@@ -70,10 +70,14 @@ function Footer(){
                         <h2>Связь с нами</h2>
                     </Link>
                     <div className="flex mdbvp:justify-start justify-center flex-row gap-[18px]">
-                        <Telegram
-                            className="lgbvp:w-[58px] lgbvp:h-[58px] mdbvp:w-[40px] mdbvp:h-[40px] w-[58px] h-[58px]"/>
-                        <WhatsUp
-                            className="lgbvp:w-[58px] lgbvp:h-[58px] mdbvp:w-[40px] mdbvp:h-[40px] w-[58px] h-[58px]"/>
+                        <Link to="https://web.telegram.org/k/">
+                            <Telegram
+                                className="lgbvp:w-[58px] lgbvp:h-[58px] mdbvp:w-[40px] mdbvp:h-[40px] w-[58px] h-[58px]"/>
+                        </Link>
+                        <Link to="https://web.whatsapp.com/ ">
+                            <WhatsUp
+                                className="lgbvp:w-[58px] lgbvp:h-[58px] mdbvp:w-[40px] mdbvp:h-[40px] w-[58px] h-[58px]"/>
+                        </Link>
                     </div>
                 </div>
             </div>
