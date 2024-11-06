@@ -22,7 +22,7 @@ function Hero() {
     console.log(modal)
 
     return (
-        <div className="flex z-[10] pt-[85px] mdbvp:px-[60px] px-[21px]">
+        <div className="flex z-[10] mdbvp:pt-[85px] pt-0 mdbvp:px-[60px] px-[21px]">
             <div className="flex items-center flex-col z-10 border-[3px] border-[#05A5C8] mdbvp:w-[546px] w-full md:h-[648px] py-7 md:px-[50px] px-[23px] mdbvp:pt-[38px] pt-[0] pb-[25px] justify-center bg-white rounded-[21px]">
                 <h2 className="md:text-[30px] text-[21px] z-10 leading-[36px] font-semibold">Первый займ <span className="text-[#05A5C8] font-black">БЕПЛАТНО</span> </h2>
                 <div className="w-full mt-[15px] mb-6">

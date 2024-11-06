@@ -25,15 +25,15 @@ function Modal({setModal}){
         >
             <div
                 onClick={(e) => e.stopPropagation()}
-                className="w-[50%] gap-5 px-7 bg-white text-[#b0b0b0] rounded-[20px] flex flex-col items-center justify-center"
+                className="wmn:w-[50%] lgbvp:w-[70%] mdbvp:w-[85%] w-full px-7 bg-transparent text-[#b0b0b0] rounded-[20px] flex flex-col items-center justify-center"
             >
-                <div className="flex flex-row w-full mt-[10px] justify-between">
+                <div className="flex flex-row wmn:w-[70%] lgbvp:w-[80%] mdbvp:w-[90%] w-full mt-[10px] justify-between">
                     <div className="w-[10px]"></div>
-                    <div onClick={() => setModal(false)} className="flex flex-row bg-[#06A6C9] cursor-pointer rounded-full">
+                    <div onClick={() => setModal(false)} className="flex items-center justify-center smbvp:w-[40px] w-[20px] smbvp:h-[40px] h-[20px] flex-row bg-[#06A6C9] cursor-pointer rounded-full">
                         <X width={40} height={40} color="#ffffff"/>
                     </div>
                 </div>
-                <div className="w-[60%] mx-auto p-6 border-2 border-[#05A5C8] rounded-lg shadow-md mb-[50px]">
+                <div className="mdbvp:w-[60%] smbvp:w-[80%] w-[90%] bg-white mx-auto mdbvp:p-6 px-2 py-4 border-2 border-[#05A5C8] rounded-lg shadow-md mb-[50px]">
                     <form onSubmit={handleSubmit} className="space-y-4 mb-[20px]">
                         <div>
                             <label className="block text-[#05A5C8] mb-1">Ф.И.О:</label>
@@ -87,7 +87,7 @@ function Modal({setModal}){
 
                         <button
                             type="submit"
-                            className="w-[30%] bg-[#05A5C8] text-white font-bold py-2 rounded hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-opacity-50"
+                            className="w-[30%] mdbvp:text-[16px] text-[12px] bg-[#05A5C8] text-white font-bold py-2 rounded hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-opacity-50"
                         >
                             Отправить
                         </button>

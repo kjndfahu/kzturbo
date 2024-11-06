@@ -11,6 +11,8 @@ module.exports = {
       screens: {
         xlbvp: "1600px",
         xl: "1500px",
+        wmn: "1380px",
+        ftr: "1280px",
         lgbvp: "1100px",
         lg: "900px",
         mdbvp: "700px",
