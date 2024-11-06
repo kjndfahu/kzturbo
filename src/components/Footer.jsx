@@ -5,7 +5,7 @@ function Footer(){
     return (
         <div className="flex mdbvp:flex-row mdbvp:gap-0 gap-[40px] flex-col justify-between mdbvp:pl-[77px] mdbvp:pr-[120px] px-[10px] bg-[#05A5C8] text-white pt-[60px] pb-[64px]">
             <div
-                className="flex mdbvp:flex-row flex-col justify-start ftr:gap-[130px] lg:gap-[40px] mdbvp:gap-[15px] gap-[40px]">
+                className="flex mdbvp:flex-row flex-col justify-start ftr:gap-[80px] lg:gap-[20px] mdbvp:gap-[5px] gap-[40px]">
                 <div
                     className="flex flex-col mdbvp:text-left text-center  font-medium ftr:text-[20px] lg:text-[15px] mdbvp:text-[13px] text-[20px] leading-[30px] ftr:leading-[30px] mdbvp:leading-[20px] gap-[7px] ">
                     <Link to="/notfound">
@@ -59,19 +59,22 @@ function Footer(){
                 </div>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19549.533235203544!2d76.95185590994262!3d43.25025857351186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836e9357f4b5d1%3A0xbcd313c1e89feefa!2sAlmaly!5e0!3m2!1sen!2sua!4v1730892981040!5m2!1sen!2sua"
-                    className="w-full" style={{border: "none"}} allowFullScreen="" loading="lazy"
+                    className="" style={{border: "none"}} allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade">
 
                 </iframe>
-            </div>
-            <div
-                className="flex flex-col gap-[12px] mdbvp:text-left text-center ftr:text-[20px] lg:text-[15px] mdbvp:text-[13px] text-[20px]  font-black">
-                <Link to="/notfound">
-                    <h2>Связь с нами</h2>
-                </Link>
-                <div className="flex mdbvp:justify-start justify-center flex-row gap-[18px]">
-                    <Telegram className="lgbvp:w-[58px] lgbvp:h-[58px] mdbvp:w-[40px] mdbvp:h-[40px] w-[58px] h-[58px]"/>
-                    <WhatsUp className="lgbvp:w-[58px] lgbvp:h-[58px] mdbvp:w-[40px] mdbvp:h-[40px] w-[58px] h-[58px]"/>
+
+                <div
+                    className="flex flex-col gap-[12px] mdbvp:text-left text-center ftr:text-[20px] lg:text-[15px] mdbvp:text-[13px] text-[20px]  font-black">
+                    <Link to="/notfound">
+                        <h2>Связь с нами</h2>
+                    </Link>
+                    <div className="flex mdbvp:justify-start justify-center flex-row gap-[18px]">
+                        <Telegram
+                            className="lgbvp:w-[58px] lgbvp:h-[58px] mdbvp:w-[40px] mdbvp:h-[40px] w-[58px] h-[58px]"/>
+                        <WhatsUp
+                            className="lgbvp:w-[58px] lgbvp:h-[58px] mdbvp:w-[40px] mdbvp:h-[40px] w-[58px] h-[58px]"/>
+                    </div>
                 </div>
             </div>
         </div>

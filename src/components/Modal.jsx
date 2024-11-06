@@ -30,7 +30,6 @@ function Modal({ setModal }) {
             - Месячный доход: ${formData.income}
         `;
 
-        // Отправка данных в Telegram
         try {
             await fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
                 method: 'POST',
